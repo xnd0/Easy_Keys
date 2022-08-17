@@ -21,6 +21,7 @@ body {
     height: 70%;
     background-color: white;
     border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .black {
@@ -30,6 +31,53 @@ body {
     margin-right: -4%;
     z-index: 2;
     background-color: black;
+    border-radius: 2px;
+}
+
+.white.active {
+    background-color: white;
+    /* background-color: rgb(227, 227, 227); */
+    /* animation: fadeIn 5s; */
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+/* @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  } */
+
+
+@keyframes fadeInOpacity {
+	0% {
+        background-color: rgb(75, 32, 140);
+		opacity: 0.8;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.black.active {
+    background-color: rgb(26, 24, 24);
+    opacity: 1;
+	animation-name: blackFadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes blackFadeInOpacity {
+	0% {
+        background-color:rgb(18, 63, 122);
+		opacity: 0.8;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 
