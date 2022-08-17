@@ -17,7 +17,7 @@ body {
 
 .white {
     width: 9%;
-    min-width: 60px;
+    min-width: 40px;
     height: 70%;
     background-color: white;
     border: 1px solid #ccc;
@@ -25,7 +25,7 @@ body {
 
 .black {
     width: 8%;
-    height: 45%;
+    height: 42%;
     margin-left: -4%;
     margin-right: -4%;
     z-index: 2;
