@@ -2,6 +2,7 @@
 /* -------- CSS Sheet -------- */
 /* --------------------------- */
 
+
 body {
     background-color: rgb(16, 15, 15);
     color:antiquewhite;
@@ -36,20 +37,12 @@ body {
 
 .white.active {
     background-color: white;
-    /* background-color: rgb(227, 227, 227); */
-    /* animation: fadeIn 5s; */
     opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
 	animation-duration: 2s;
 }
-
-/* @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  } */
-
 
 @keyframes fadeInOpacity {
 	0% {
@@ -79,8 +72,3 @@ body {
 		opacity: 1;
 	}
 }
-
-
-
-
-
