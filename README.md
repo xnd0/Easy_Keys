@@ -1,8 +1,12 @@
-# Easy_Keys_v1.0
+# Easy Keys · The Synth Piano Web App
 
-An ultra-lightweight playable synth piano web app.
+### An ultra-lightweight digital piano:
 
-Click the piano keys on desktop, or touchscreen on mobile.
+<br>
+
+- Touchscreen & mobile responsive design for your cellphone.
+
+- Click the piano keys or use your keyboard to play on desktop.
 
 <br>
 
@@ -10,9 +14,11 @@ Click the piano keys on desktop, or touchscreen on mobile.
 Link:
 https://xnd0.github.io/Easy_Keys/
 
+<br>
 
 ## Screenshot:
-![View of the App](Easy_Keys_v1.png)
+![View of the App](./images/Easy_Keys_v2.png)
+
 <br>
 
 Synth keyboard tones courtesy of Internet Archive (https://archive.org/)
