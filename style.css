@@ -4,10 +4,14 @@
 
 
 body {
-    background-color: rgb(16, 15, 15);
-    color:antiquewhite;
+    background-image: radial-gradient(rgb(40, 6, 2), black);
+    color:rgb(234, 230, 224);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+header {
+    margin-left: 4%;
+}
 
 .piano {
     height: 100vh;
@@ -48,8 +52,7 @@ body {
 	0% {
         background-color: rgb(75, 32, 140);
 		opacity: 0.8;
-	}
-	100% {
+	} 100% {
 		opacity: 1;
 	}
 }
@@ -65,10 +68,9 @@ body {
 
 @keyframes blackFadeInOpacity {
 	0% {
-        background-color:rgb(18, 63, 122);
-		opacity: 0.8;
-	}
-	100% {
+        background-color:rgb(20, 44, 120);
+		opacity: 0.85;
+	} 100% {
 		opacity: 1;
 	}
 }
