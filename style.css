@@ -8,7 +8,6 @@ body {
     color:antiquewhite;
 }
 
-
 .piano {
     height: 100vh;
     width: 100%;
@@ -48,8 +47,7 @@ body {
 	0% {
         background-color: rgb(75, 32, 140);
 		opacity: 0.8;
-	}
-	100% {
+	} 100% {
 		opacity: 1;
 	}
 }
@@ -67,8 +65,7 @@ body {
 	0% {
         background-color:rgb(18, 63, 122);
 		opacity: 0.8;
-	}
-	100% {
+	} 100% {
 		opacity: 1;
 	}
 }
